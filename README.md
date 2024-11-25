@@ -84,6 +84,8 @@ A simple way to calculate viewshed is with gdal:
 
 ## Usage
 
+`
+python3 photogeoref.py [-h] [-s SETTINGS]'
 Some examples are provided in the attached zip files with all the necessary files to run them.
 
 
