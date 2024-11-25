@@ -11,7 +11,7 @@ The tool works for any camera where focal length and sensor dimensions are well 
 
 ## Documentation
 
-Full documentation at: https://www.meteoexploration.com/python/photogeoref/index.html
+Full documentation and examples at: https://www.meteoexploration.com/python/photogeoref/index.html
 
 ## Overview
 
