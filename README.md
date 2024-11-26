@@ -58,10 +58,10 @@ A simple way to calculate viewshed is with gdal:
 `gdal_viewshed -md 30000 -ox observerX -oy ObserverY -oz heightoverdem -vv 1 inputdem.tif outputviewshed.tif`
 
 `imgfname`
-&ensp;     Full path to a a RGB tiff with the photograph to be georeferenced. It should be the full image, not cropped. Images can be processed, contains annotations and modifications but dimensions should be preserved
+&ensp;     Full path to a RGB tiff with the photograph to be georeferenced. It should be the full image, not cropped. Images can be processed, contains annotations and modifications but dimensions should be preserved
 
 `GCPfname`
-&ensp;     Full path to a a comma-separated-values file (csv) with Ground Control Points. Its is advisable to include the observer and the target position.
+&ensp;     Full path to a comma-separated-values file (csv) with Ground Control Points. Its is advisable to include the observer and the target position.
 
 `tgtcoords`
 &ensp;     Array with the observer X, Y, Z coordinates (camera position). Observer coordinates should be inside the DEM domain and in the same reference system. Coordinates should be easting and northing in metres, not degrees of latitude or longitude.
