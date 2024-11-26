@@ -52,7 +52,7 @@ roll: 2.5
 &ensp;     Full path to a GeoTIFF with elevation data (DEM). $Delta$X, $DeltaY$ and Z should be in metres, DEM should be a UTM projection with squared pixels.
 
 `visfname`
-&ensp;     Full path to a GeoTIFF with the calculated DEM viewshed from the observer position. Visible values should be 1 and non-visible values zero.
+&ensp;     Full path to a GeoTIFF with the calculated DEM viewshed from the observer position. Visible values should be 1 and non-visible values zero. The script maps only visible cells in front of the camera and ignores grid cells that are behind the observer.
 A simple way to calculate viewshed is with gdal:
 
 `gdal_viewshed -md 30000 -ox observerX -oy ObserverY -oz heightoverdem -vv 1 inputdem.tif outputviewshed.tif`
